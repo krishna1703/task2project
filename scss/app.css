@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: Plus Jakarta Sans;
+}
+
+.main {
+  background-color: rgba(49, 146, 234, 0.07);
+  display: flex;
+  flex-direction: column;
+  height: 980px;
+}
+.main .nav {
+  height: 57.17px;
+  display: flex;
+  align-items: center;
+  margin-top: 22px;
+  padding: 0px 140px 0px 140px;
+  justify-content: space-between;
+}
+.main .nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 512px;
+  height: 18px;
+  padding: 0;
+  margin-left: 187px;
+  margin-right: 179px;
+}
+.main .nav ul li {
+  list-style: none;
+  width: auto;
+  font-size: 18px;
+  line-height: 18px;
+  font-size: medium;
+  font-weight: 600;
+  display: flex;
+  gap: 50px;
+  font-family: Plus Jakarta Sans;
+}
+.main .nav .profile-icon {
+  background-color: black;
+  width: 52px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  margin-right: 26px;
+}
+.main .nav button {
+  width: 148px;
+  height: 52px;
+  background-color: rgb(110, 110, 254);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+.main .hero {
+  margin-top: 102px;
+  text-align: center;
+}
+.main .hero h2 {
+  font-size: 70px;
+  font-weight: bolder;
+}
+.main .hero .local-rental {
+  display: flex;
+  width: 552px;
+  height: 60px;
+  margin-left: 389px;
+  margin-top: 50px;
+  background-color: #ffffff;
+  padding: 2px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  align-items: center;
+}
+.main .hero .local-rental hr {
+  background-color: #e9e9e9;
+  height: 30px;
+}
+.main .hero .search-location {
+  display: flex;
+  width: 821px;
+  height: 102px;
+  margin-left: 389px;
+  background-color: #ffffff;
+  text-align: left;
+  padding: 2px 25px;
+  font-size: 14px;
+  font-size: small;
+  align-items: center;
+  gap: 65px;
+  line-height: 14px;
+}
+.main .hero .search-location p:nth-of-type(2) {
+  line-height: 18px;
+  color: lightgray;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.main .hero .search-location hr {
+  background-color: #e9e9e9;
+  height: 45px;
+}
+.main .hero .search-location button {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  border: none;
+  color: #ffffff;
+  background: #000;
+  padding: auto;
+}
+.main .hero .div-car {
+  background-color: rgb(255, 249, 61);
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  height: 250px;
+  position: relative;
+  margin-top: 272px;
+}
+.main .hero .car {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  height: 200px;
+  padding-top: 272px;
+}
+
+.services {
+  margin: 130px;
+  width: auto;
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+}
+.services .service-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 50px;
+}
+.services .service-text .service-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+.services .service-text .service-btn button {
+  padding: 10px 30px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  border-color: rgb(121, 121, 219);
+}
+.services .child-div {
+  display: flex;
+  width: 1320px;
+  height: 1000px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.services .child-div div {
+  width: 640px;
+  height: 480px;
+  position: relative;
+}
+.services .child-div div .div-title {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  left: 50px;
+}
+.services .child-div div .div-title p {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  font-weight: bold;
+}
+
+.why-choose {
+  width: auto;
+  height: 400px;
+  margin: 140px;
+  display: flex;
+  gap: 158px;
+  align-items: flex-start;
+}
+.why-choose .why-choose-test {
+  width: 470px;
+  height: 297px;
+  padding-top: 0;
+}
+.why-choose .why-choose-test h2 {
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: bold;
+}
+.why-choose .why-choose-test p {
+  font-size: 12px;
+  line-height: 30px;
+}
+.why-choose .why-choose-test button {
+  background-color: yellow;
+  border: none;
+  color: #fff;
+  padding: 18px 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 16px;
+}
+.why-choose .why-choose-card {
+  display: flex;
+  width: 718px;
+  height: 400px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.why-choose .why-choose-card div {
+  width: 310px;
+  height: 175px;
+  gap: 50px;
+}
+.why-choose .why-choose-card div p {
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.footer {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.footer .child-footer {
+  padding: 80px 140px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .child-footer .right-footer {
+  display: flex;
+  gap: 88px;
+  margin-left: 350px;
+}
+.footer .child-footer .right-footer div {
+  width: 200px;
+}
+.footer .child-footer .right-footer div P {
+  font-size: 18px;
+  font-weight: normal;
+}
+.footer .child-footer .right-footer div ul {
+  padding-left: 0;
+}
+.footer .child-footer .right-footer div ul li {
+  list-style: none;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.footer hr {
+  background-color: rgb(64, 64, 64);
+}
+.footer h6 {
+  padding-left: 120px;
+  padding-top: 10px;
+}/*# sourceMappingURL=app.css.map */
